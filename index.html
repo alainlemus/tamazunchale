@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Conoce y comparte</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Conoce y comparte, Joya de México.">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<style>
+			.slider{
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				background-position: center center;
+				/*background-image: url(images/agave.jpg);*/
+				z-index:-1;
+			}
+			
+			.slider li{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background-position: center center;
+				animation: slider 40s linear infinite;
+				background-size: cover;
+				background-repeat: none;
+				
+				-moz-animation: slider 40s linear infinite;
+				-ms-animation: slider 40s linear infinite;
+				-o-animation: slider 40s linear infinite;
+				-webkit-animation: slider 40s linear infinite;
+			}
+			
+			.slider .img1{
+				background-image: url(images/tam1.jpg);
+				animation-delay: 10s;
+				left: 0px;
+			}
+			
+			.slider .img2{
+				background-image: url(images/tam2.jpeg);
+				animation-delay: 20s;
+				left: 0px;
+			}
+			
+			.slider .img3{
+				background-image: url(images/tam1.jpg);
+				animation-delay: 30s;
+				left: 0px;
+			}
+			
+			@keyframes slider{
+				0%{opacity: 1; animation-timing-function: ease-in;}
+				10%{opacity: 1; animation-timing-function: ease-out;}
+				25%{opacity: 1; }
+				50%{opacity: 1; transform: scale(2);}
+				100%{opacity: 0;}
+			}
+			
+			@-moz-keyframes slider{
+				0%{opacity: 1; animation-timing-function: ease-in;}
+				10%{opacity: 1; animation-timing-function: ease-out;}
+				25%{opacity: 1; }
+				50%{opacity: 1; transform: scale(2);}
+				100%{opacity: 0;}
+			}
+			
+			@-ms-keyframes slider{
+				0%{opacity: 1; animation-timing-function: ease-in;}
+				10%{opacity: 1; animation-timing-function: ease-out;}
+				25%{opacity: 1; }
+				50%{opacity: 1; transform: scale(2);}
+				100%{opacity: 0;}
+			}
+			
+			@-o-keyframes slider{
+				0%{opacity: 1; animation-timing-function: ease-in;}
+				10%{opacity: 1; animation-timing-function: ease-out;}
+				25%{opacity: 1; }
+				50%{opacity: 1; transform: scale(2);}
+				100%{opacity: 0;}
+			}
+			
+			@-wenkit-keyframes slider{
+				0%{opacity: 1; animation-timing-function: ease-in;}
+				10%{opacity: 1; animation-timing-function: ease-out;}
+				25%{opacity: 1; }
+				50%{opacity: 1; transform: scale(2);}
+				100%{opacity: 0;}
+			}
+			
+		</style>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+                        <div style="display: flex; align-items: center; justify-content: center; padding-left: 10px;">
+                            <img src="images/24.png" alt="" style="width: 60px; padding-top: 10px;" />
+                            <p style="margin: 0">TAMAZUNCHALE</p>
+                        </div>
+						<!--<nav>
+							<a href="#menu">Menu</a>
+						</nav>-->
+					</header>
+
+				<!-- Menu -->
+					<!--<nav id="menu">
+						<ul class="links">
+							<li><a href="../inicio.php">Inicio</a></li>-->
+							<!--<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>-->
+						<!--</ul>-->
+						<!--<ul class="actions vertical">
+							<li><a href="#" class="button special fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>-->
+					<!--</nav>-->
+
+				<!-- Banner -->
+					<section id="banner" class="content" style="opacity: 0.9;">
+						<div class="inner" >
+							<header class="major">
+								<h1>FERIA 2025</h1>
+								
+							</header>
+							<div class="content" style="">
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Adelante</a></li>
+								</ul>
+								
+							</div>
+						</div>
+						
+						<ul class="slider">
+							<li class="img1"></li>
+							<li class="img2"></li>
+							<li class="img3"></li>
+						</ul>
+						
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/tam1.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3>Expositores</h3>
+										<p>Producción de Agave </p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/tam2.jpeg" alt="" />
+									</span>
+									<header class="major">
+										<h3>Conferencias</h3>
+										<p>Entre 7 y 8 años de maduración </p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/talleres.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3>Talleres</h3>
+										<p>Transformación de los carbohidratos en azucares </p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/conferencias.jpeg" alt="" />
+									</span>
+									<header class="major">
+										<h3>Invitados</h3>
+										<p>Alambique de cobre</p>
+									</header>
+								</article>
+								<!--<article>
+									<span class="image">
+										<img src="images/barrica2.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3>Añejamiento</h3>
+										<p>Barricas de roble blanco usadas en Whisky </p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/edi_05.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3>Joya de México</h3>
+										<p>Un sabor y textura de envidia </p>
+									</header>
+								</article>-->
+							</section>
+
+						<!-- Two -->
+							<!--<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Massa libero</h2>
+									</header>
+									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<ul class="actions">
+										<li><a href="landing.html" class="button next">Get Started</a></li>
+									</ul>
+								</div>
+							</section>-->
+
+					</div>
+
+				<!-- Contact -->
+					<!--<section id="contact" style="background-color: #15191e;">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="field half first">
+										<label for="name">Nombre</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Mensaje</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Enviar" class="special" /></li>
+										<li><input type="reset" value="Limpiar" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">contacto@tequilaeditor.com.mx</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-phone"></span>
+										<h3>Teléfono</h3>
+										<span>(55) 7824-9519</span><br>
+										<span>(55) 7824-9522</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-home"></span>
+										<h3>Dirección</h3>
+										<span>Av. Cuauhtemoc #722<br />
+										Narvarte Poniente, C.P. 03020<br />
+										México</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>-->
+
+				<!-- Footer -->
+					<footer id="footer" style="background-color: #15191e; z-index: 2; opacity: 0.99;">
+						<div class="inner">
+							<ul class="icons">
+								
+								<li><a href="#" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+								
+							</ul>
+							<ul class="copyright">
+								<li>&copy; G.L. Litesa 2025</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
