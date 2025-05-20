@@ -7,6 +7,28 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.objetivo{
+	width: 50%; 
+	line-height: 1;
+}
+
+.logo-pag{
+	width: 60px;
+}
+
+.logos{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	z-index: 99;
+	flex-wrap: wrap;
+}
+
+.logos img{
+	width:6em;
+	height: auto;
+	padding-right: 20px;
+}
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1175,6 +1197,10 @@
 	}
 
 	@media screen and (max-width: 480px) {
+
+		.logo-pag{
+			width: 40px;
+		}
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -2838,7 +2864,7 @@
 			}
 
 			.tiles article:hover:before {
-				opacity: 0;
+				/*opacity: 0;*/
 			}
 
 			.tiles article.is-transitioning {
@@ -2853,7 +2879,12 @@
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
+			.tiles article:nth-child(4n - 1) {
+				width: 100%;
+				height: 50vh;
+			}
+
+			.tiles article:nth-child(4n - 3) {
 				width: 60%;
 			}
 
@@ -2867,6 +2898,7 @@
 
 			.tiles article:nth-child(6n - 3):before {
 				background-color: #ec8d81;
+				width: 100%!important;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
@@ -2874,7 +2906,8 @@
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #15191e;
+				opacity: 0.99;
 			}
 
 			.tiles article:nth-child(6n):before {
@@ -2916,6 +2949,10 @@
 		}
 
 		@media screen and (max-width: 480px) {
+
+			.tiles article:nth-child(4n - 1) {
+				height: 60vh;
+			}
 
 			.tiles {
 				display: block;
@@ -3570,6 +3607,10 @@
 
 		@media screen and (max-width: 736px) {
 
+			.objetivo{
+				width: 100%;
+			}
+
 			#banner {
 				padding: 5em 0 1em 0 ;
 				height: auto;
@@ -3580,6 +3621,7 @@
 			}
 
 				#banner h1 {
+					line-height: 1.25em;
 					font-size: 2em;
 				}
 
